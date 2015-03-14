@@ -1,7 +1,17 @@
 package com.magnum;
 
-/**
- * Created by zorek on 15-03-14.
- */
 public class oddnumbers {
+
+  //Denna kod ska minimeras
+  public String runCode(String i) {
+    return "hej" + i;
+  }
+
+  public oddnumbers() {
+    System.out.println(runCode("Hello"));
+  }
+
+  public static void main(String[] args) {
+    new oddnumbers();
+  }
 }
